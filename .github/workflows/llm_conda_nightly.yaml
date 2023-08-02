@@ -2,6 +2,7 @@
 name: MLC-Chat-CLI-Conda-Nightly
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
